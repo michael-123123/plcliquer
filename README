@@ -34,3 +34,36 @@ with it or modify plcliquer.pl's code to include pl-cliquer.so from another loca
 We suggest you have a file_search_path for cliquer set to pl-cliquer's build
 directory, and then you can simply call use_module(cliquer(plcliquer)) etc..
 an example of how it might be done is included in examples/cfg/dotswiplrc.example 
+
+Citation:
+---------
+
+If you use this in your project we would appreciate if you cite our paper.
+
+@inproceedings{DBLP:conf/iclp/Codish0MM17,
+  author    = {Michael Codish and
+               Michael Frank and
+               Amit Metodi and
+               Morad Muslimany},
+  editor    = {Ricardo Rocha and
+               Tran Cao Son and
+               Christopher Mears and
+               Neda Saeedloei},
+  title     = {Logic Programming with Max-Clique and its Application to Graph Coloring
+               (Tool Description)},
+  booktitle = {Technical Communications of the 33rd International Conference on Logic
+               Programming, {ICLP} 2017, August 28 to September 1, 2017, Melbourne,
+               Australia},
+  series    = {OASIcs},
+  volume    = {58},
+  pages     = {5:1--5:18},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year      = {2017},
+  url       = {https://doi.org/10.4230/OASIcs.ICLP.2017.5},
+  doi       = {10.4230/OASIcs.ICLP.2017.5},
+  timestamp = {Tue, 15 Feb 2022 09:40:05 +0100},
+  biburl    = {https://dblp.org/rec/conf/iclp/Codish0MM17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
